@@ -2,455 +2,674 @@
 <html lang="en-us">
 
   <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
   <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 
   <title>
     
-      BytesClub &middot; Coding Club, WBUT In-House
+      Hydeout &middot; A Jekyll theme
     
   </title>
 
+  
+
+
   <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/poole.css">
-  <link rel="stylesheet" href="/public/css/syntax.css">
-  <link rel="stylesheet" href="/public/css/blackdoc.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=EB+Garamond">
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface" />
+
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+
+  <!-- Additional head bits without overriding original head -->
 </head>
 
 
-  <body>
+  <body class="index home">
 
-    <div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <h1>
-        <a href="/">
-          BytesClub
-        </a>
-      </h1>
-      <p class="lead">An open source community for WBUT In-House Students</p>
+    <div id="sidebar">
+  <header>
+    <h1 class="site-title">
+      <a href="/">
+        
+        Hydeout
+      </a>
+    </h1>
+    <p class="lead">The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.</p>
+  </header>
+  <nav id="sidebar-nav-links">
+  
+    <a class="home-link  active"
+        href="/">Home</a>
+  
+  
+
+  
+
+  
+
+
+  
+    
+  
+
+  
+    
+      <a class="page-link "
+          href="/about.html">About</a>
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+  
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+      <a class="category-link "
+          href="/category/edge-case.html">Edge Case</a>
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+      <a class="category-link "
+          href="/category/markup.html">Markup</a>
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+  <!-- Optional additional links to insert in sidebar nav -->
+</nav>
+
+
+  
+    <span class="site-version">Currently v3.4.1</span>
+  
+
+  <nav id="sidebar-icon-links">
+  
+    <a id="github-link"
+       class="icon" title="Github Project" aria-label="Github Project"
+       href="https://github.com/fongandrew/hydeout">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 28"><path d="M12 2c6.625 0 12 5.375 12 12 0 5.297-3.437 9.797-8.203 11.391-0.609 0.109-0.828-0.266-0.828-0.578 0-0.391 0.016-1.687 0.016-3.297 0-1.125-0.375-1.844-0.812-2.219 2.672-0.297 5.484-1.313 5.484-5.922 0-1.313-0.469-2.375-1.234-3.219 0.125-0.313 0.531-1.531-0.125-3.187-1-0.313-3.297 1.234-3.297 1.234-0.953-0.266-1.984-0.406-3-0.406s-2.047 0.141-3 0.406c0 0-2.297-1.547-3.297-1.234-0.656 1.656-0.25 2.875-0.125 3.187-0.766 0.844-1.234 1.906-1.234 3.219 0 4.594 2.797 5.625 5.469 5.922-0.344 0.313-0.656 0.844-0.766 1.609-0.688 0.313-2.438 0.844-3.484-1-0.656-1.141-1.844-1.234-1.844-1.234-1.172-0.016-0.078 0.734-0.078 0.734 0.781 0.359 1.328 1.75 1.328 1.75 0.703 2.141 4.047 1.422 4.047 1.422 0 1 0.016 1.937 0.016 2.234 0 0.313-0.219 0.688-0.828 0.578-4.766-1.594-8.203-6.094-8.203-11.391 0-6.625 5.375-12 12-12zM4.547 19.234c0.031-0.063-0.016-0.141-0.109-0.187-0.094-0.031-0.172-0.016-0.203 0.031-0.031 0.063 0.016 0.141 0.109 0.187 0.078 0.047 0.172 0.031 0.203-0.031zM5.031 19.766c0.063-0.047 0.047-0.156-0.031-0.25-0.078-0.078-0.187-0.109-0.25-0.047-0.063 0.047-0.047 0.156 0.031 0.25 0.078 0.078 0.187 0.109 0.25 0.047zM5.5 20.469c0.078-0.063 0.078-0.187 0-0.297-0.063-0.109-0.187-0.156-0.266-0.094-0.078 0.047-0.078 0.172 0 0.281s0.203 0.156 0.266 0.109zM6.156 21.125c0.063-0.063 0.031-0.203-0.063-0.297-0.109-0.109-0.25-0.125-0.313-0.047-0.078 0.063-0.047 0.203 0.063 0.297 0.109 0.109 0.25 0.125 0.313 0.047zM7.047 21.516c0.031-0.094-0.063-0.203-0.203-0.25-0.125-0.031-0.266 0.016-0.297 0.109s0.063 0.203 0.203 0.234c0.125 0.047 0.266 0 0.297-0.094zM8.031 21.594c0-0.109-0.125-0.187-0.266-0.172-0.141 0-0.25 0.078-0.25 0.172 0 0.109 0.109 0.187 0.266 0.172 0.141 0 0.25-0.078 0.25-0.172zM8.937 21.438c-0.016-0.094-0.141-0.156-0.281-0.141-0.141 0.031-0.234 0.125-0.219 0.234 0.016 0.094 0.141 0.156 0.281 0.125s0.234-0.125 0.219-0.219z"></path>
+</svg>
+
+    </a>
+    <a id="github-download-link"
+       class="icon" title="Download" aria-label="Download"
+       href="https://github.com/fongandrew/hydeout/archive/v3.4.1.zip">
+      <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+    <path d="M0 0h24v24H0z" fill="none"/>
+</svg>
+    </a>
+  
+
+  <a id="subscribe-link"
+     class="icon" title="Subscribe" aria-label="Subscribe"
+     href="/feed.xml">
+    <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <circle cx="6.18" cy="17.82" r="2.18"/>
+    <path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/>
+</svg>
+  </a>
+
+  
+  
+  
+  
+
+  
+    <a id="tags-link"
+       class="icon"
+       title="Tags" aria-label="Tags"
+       href="/tags.html">
+      <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+    </a>
+  
+
+  
+    <a id="search-link"
+       class="icon"
+       title="Search" aria-label="Tags"
+       href="/search.html">
+      <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+    <path d="M0 0h24v24H0z" fill="none"/>
+</svg>
+    </a>
+  
+
+  <!-- Optional additional links to insert for icons links -->
+</nav>
+  <p>
+  &copy; 2017.
+  <a href="/LICENSE.md">MIT License.</a>
+</p>
+
+</div>
+
+    <main class="container">
+      <div class="content">
+  
+
+
+  
+
+  
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="/2017/06/01/hello-hydeout.html">
+        Hello Hydeout
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">01 Jun 2017</span>
+  <span class="post-categories">
+    
+  </span>
+</div>
+
+    
+      <p>Hydeout updates the original <a href="https://github.com/poole/hyde">Hyde</a>
+theme for <a href="http://jekyllrb.com">Jekyll</a> 3.x and adds new functionality.</p>
+
+<h3 id="keep-it-simple">Keep It Simple</h3>
+
+<p>In keeping with the original Hyde theme, Hydeout aims to keep the overall
+design lightweight and plugin-free. JavaScript is currently limited only
+to Disqus and Google Analytics (and is only loaded if you provide configuration
+variables).</p>
+
+<p>Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
+the CSS degrades into a single column layout.</p>
+
+<h3 id="customization">Customization</h3>
+
+<p>Hydeout replaces Hyde’s class-based theming with the use
+of the following SASS variables:</p>
+
+<div class="language-scss highlighter-rouge"><pre class="highlight"><code><span class="nv">$sidebar-bg-color</span><span class="p">:</span> <span class="mh">#202020</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+<span class="nv">$sidebar-sticky</span><span class="p">:</span> <span class="bp">true</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+<span class="nv">$layout-reverse</span><span class="p">:</span> <span class="bp">false</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+<span class="nv">$link-color</span><span class="p">:</span> <span class="mh">#268bd2</span> <span class="o">!</span><span class="nb">default</span><span class="p">;</span>
+</code></pre>
+</div>
+
+<p>To override these variables, create your own <code class="highlighter-rouge">assets/css/main.scss</code> file.
+Define your own variables, then import in Hydeout’s SCSS, like so:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>---
+# Jekyll needs front matter for SCSS files
+---
+
+$sidebar-bg-color: #ac4142;
+$link-color: #ac4142;
+$sidebar-sticky: false;
+@import "hydeout";
+</code></pre>
+</div>
+
+<p>See the <a href="_sass/hydeout/_variables.scss">_variables</a> file for other variables
+you can override.</p>
+
+<p>You can also insert custom head tags (e.g. to load your own stylesheets) by
+defining your own <code class="highlighter-rouge">_includes/custom-head.html</code> or insert tags at the end
+of the body (e.g. for custom JS) by defining your own
+<code class="highlighter-rouge">_includes/custom-foot.html</code>.</p>
+
+<h3 id="new-features">New Features</h3>
+
+<ul>
+  <li>
+    <p>Hydeout also adds a new tags page (accessible in the sidebar) and a new
+“category” layout for dedicated category pages.</p>
+  </li>
+  <li>
+    <p>Category pages are automatically added to the sidebar. All other pages
+must have <code class="highlighter-rouge">sidebar_link: true</code> in their front matter to show up in
+the sidebar.</p>
+  </li>
+  <li>
+    <p>A simple redirect-to-Google search is available. If you want to use
+Google Custom Search or Algolia or something with more involved,
+override the <code class="highlighter-rouge">search.html</code>.</p>
+  </li>
+  <li>
+    <p>Disqus integration is ready out of the box. Just add the following to
+your config file:</p>
+
+    <div class="language-yaml highlighter-rouge"><pre class="highlight"><code><span class="s">disqus</span><span class="pi">:</span>
+  <span class="s">shortname</span><span class="pi">:</span> <span class="s">my-disqus-shortname</span>
+</code></pre>
     </div>
 
-    <nav class="sidebar-nav">
-      <img src="/images/bytes_club_logo_sidebar.jpg">
-      <a class="sidebar-nav-item active" href="/">Home</a>
-
-      
-
-      
-      
-        
-          
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/TLoC/">Thousand Lines of Code</a>
-          
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/about/">About</a>
-          
-        
-      
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/contributing/">Contribution</a>
-          
-        
-      
-        
-          
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/members/">Members</a>
-          
-        
-      
-        
-          
-            <a class="sidebar-nav-item" href="/projects/">Projects</a>
-          
-        
-      
-
-<a href="https://gitter.im/Bytes_Club/General"><img src="https://badges.gitter.im/gitterHQ/gitterHQ.github.io.svg" alt="Join the chat at https://gitter.im/Bytes_Club/General" /></a>
-
-<!--
-      <a class="sidebar-nav-item" href="https://github.com/BytesClub/archive/master.zip">Download</a>
--->
-      <hr>
-      <a class="sidebar-nav-item" href="https://github.com/BytesClub">GitHub</a>
-<!--
-      <span class="sidebar-nav-item">Currently v1.0.1</span>
--->
-    </nav>
-
-<!--
-    <p>&copy; 2017. All rights reserved.</p>
--->
-  </div>
-</div>
-
-
-    <div class="content container">
-      <div class="posts">
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/2017/03/01/introduction-to-ssh/">
-        SSH and it's use in GitHub
-      </a>
-    </h1>
-
-    <span class="post-date">01 Mar 2017</span>
-
-    <!--<blockquote>
-  <p>“Privacy is Security, Security is Victory”</p>
-</blockquote>
-
-<h1 id="what-is-ssh">What is SSH</h1>
-<p><strong>Secure Shell (SSH)</strong> is a <a href="https://en.wikipedia.org/wiki/Secure_Shell">cryptographic network protocol</a> for operating network services securely over an unsecured network.
-SSH provides a secure channel over an unsecured network in a client-server architecture, connecting an SSH client application with an SSH server. Common applications include remote command-line login and remote command execution, but any network service can be secured with SSH.</p>
-
-<h1 id="how-does-it-works">How does it works</h1>
-<p>To use a manually generated public-private key pair to perform the authentication, allowing users or programs to log in without having to specify a password. In this scenario, anyone can produce a matching pair of different keys (public and private). The public key is placed on all computers that must allow access to the owner of the matching private key (the owner keeps the private key secret). While authentication is based on the private key, the key itself is never transferred through the network during authentication. SSH only verifies whether the same person offering the public key also owns the matching private key. In all versions of SSH it is important to verify unknown public keys, i.e. associate the public keys with identities, before accepting them as valid. Accepting an attacker’s public key without validation will authorize an unauthorized attacker as a valid user.</p>
-
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Ssh_binary_packet_alt.svg/250px-Ssh_binary_packet_alt.svg.png" alt="copy" /></p>
-
-<h1 id="how-to-use">How to use</h1>
-<ul>
-  <li>Linux has native support for SSH, while Windows doesn’t. <sup><a href="http://arstechnica.com/information-technology/2015/06/microsoft-bringing-ssh-to-windows-and-powershell/">Ref</a></sup></li>
-  <li>Git Bash by default contains SSH package.<sup><a href="https://git-for-windows.github.io/">Download</a></sup></li>
-  <li>Navigate to
-    <ul>
-      <li><code class="highlighter-rouge">user/.ssh/</code> in Windows</li>
-      <li><code class="highlighter-rouge">home/.ssh/</code> in Linux</li>
-    </ul>
-
-    <p>to list all the key-pair present in your machine. Only the file named <strong><code class="highlighter-rouge">id_rsa</code></strong> will be considered in <em>bash</em></p>
+    <p>If you don’t want Disqus or want to use something else, override
+<code class="highlighter-rouge">comments.html</code>.</p>
   </li>
-  <li>Every key has a public counter-part, filename ending with <strong><code class="highlighter-rouge">.pub</code></strong>.</li>
+  <li>
+    <p>For Google Analytics support, define a <code class="highlighter-rouge">google_analytics</code> variable with
+your property ID in your config file.</p>
+  </li>
 </ul>
 
-<h3 id="how-to-create-a-new-key">How to create a new key</h3>
-<div class="highlighter-rouge"><pre class="highlight"><code>$ ssh-keygen -t rsa -C "your_email@example.com"
-</code></pre>
-</div>
-<p>The file will be stored in afforesaid directory along with the fingerprint.
-<img src="https://confluence.atlassian.com/bitbucketserver/files/776639788/776639789/1/1386202193726/STASH_11_win_keygen_1.png" alt="copy" />
-<img src="https://confluence.atlassian.com/bitbucketserver/files/776639788/776639790/1/1386202193276/STASH_11_win_keygen_2.png" alt="copy" /></p>
+<p>There’s also a bunch of minor tweaks and adjustments throughout the
+theme. Hope this works for you!</p>
 
-<h4 id="note-the-key-pair-will-create-effect-only-if-both-of-them-are-renamed-as-idrsa-and-idrsapub-respectively">Note: The key-pair will create effect only if both of them are renamed as <code class="highlighter-rouge">id_rsa</code> and <code class="highlighter-rouge">id_rsa.pub</code> respectively.</h4>
+    
 
-<h3 id="how-to-deploy-keys-in-github">How to deploy keys in GitHub</h3>
-<ul>
-  <li>Copy the content of the file <strong>id_rsa.pub</strong></li>
-  <li>Move to the <strong>Settings</strong> option in right-top corner of the page</li>
-  <li>In the user settings sidebar, click <strong>SSH and GPG keys</strong>.</li>
-  <li>Click <strong>New SSH key</strong> or <strong>Add SSH key</strong>.</li>
-  <li>Specify the <strong>Title</strong> according to your machine/workspace and paste the content in <strong>Key</strong> field.</li>
-  <li>Click <strong>Add SSH key</strong>.</li>
-  <li>If prompted, confirm your GitHub password.</li>
-</ul>
+    
+      
+      
+      
 
-<h4 id="for-more-details-navigate-herehttpshelpgithubcomarticlesconnecting-to-github-with-ssh"><a href="https://help.github.com/articles/connecting-to-github-with-ssh/">For more details, navigate here</a></h4>
-
-<h3 id="happy-coding-">Happy Coding! :)</h3>
--->
-  </div>
+      
+    
+  </article>
   
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/2017/02/23/introduction-to-git/">
-        Introduction to Git and GitHub
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="/2013/12/28/introducing-hyde.html">
+        Introducing Hyde
       </a>
-    </h1>
-
-    <span class="post-date">23 Feb 2017</span>
-
-    <!--<blockquote>
-  <p>“Real men use the command line”</p>
-</blockquote>
-
-<h1 id="git">Git</h1>
-
-<p>Git is a <a href="https://en.wikipedia.org/wiki/Version_control">version control system</a> to track changes in files in a computer and allow multiple people to work on those files. It was created by <a href="https://www.youtube.com/watch?v=IVpOyKCNZYw">Linus Torvalds</a> <sup id="fnref:ted"><a href="#fn:ted" class="footnote">1</a></sup>, in less than 2 weeks.</p>
-
-<h3 id="why-we-need-git">Why we need git</h3>
-
-<p>Simply put, it is like checkpoints in games, and we can fearlessly modify code, without creating a backup, removing the need to do this:</p>
-
-<p><img src="/images/git/git-copies.png" alt="copy" /></p>
-
-<p>Git is also fully distributive, allowing multiple people to work on a project easily, and maintaining the changes made by them.</p>
-
-<p><img src="/images/git/vc.png" alt="copy" /></p>
-
-<h3 id="installing-git">Installing git</h3>
-
-<p>Git is installed on Debian/Ubuntu, from the package manager by:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>sudo apt-get install git
-</code></pre>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">28 Dec 2013</span>
+  <span class="post-categories">
+    
+  </span>
 </div>
 
-<h3 id="create-a-git-repository">Create a git repository</h3>
+    
+      <p>Hyde is a brazen two-column <a href="http://jekyllrb.com">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. It’s based on <a href="http://getpoole.com">Poole</a>, the Jekyll butler.</p>
 
-<p>To create a new git repository, create a new directory, go to the directory via the terminal, and perform a</p>
+<h3 id="built-on-poole">Built on Poole</h3>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>git init
-</code></pre>
-</div>
-<p>to create a new git repository</p>
+<p>Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by <a href="https://twitter.com/mdo">@mdo</a>. Poole, and every theme built on it (like Hyde here) includes the following:</p>
 
-<h3 id="add-changes">Add changes</h3>
+<ul>
+  <li>Complete Jekyll setup included (layouts, config, <a href="/404">404</a>, <a href="/feed.xml">RSS feed</a>, posts, and <a href="/about">example page</a>)</li>
+  <li>Mobile friendly design and development</li>
+  <li>Easily scalable text and component sizing with <code class="highlighter-rouge">rem</code> units in the CSS</li>
+  <li>Support for a wide gamut of HTML elements</li>
+  <li>Related posts (time-based, because Jekyll) below each post</li>
+  <li>Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)</li>
+</ul>
 
-<p>After modifying/adding files on the repository, to add the changes made to the files in the staging area, use the <code class="highlighter-rouge">git add</code> command</p>
+<h3 id="hyde-features">Hyde features</h3>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>git add &lt;filename&gt;
-</code></pre>
-</div>
+<p>In addition to the features of Poole, Hyde adds the following:</p>
 
-<p>To add all changed files to the staged area, use:</p>
+<ul>
+  <li>Sidebar includes support for textual modules and a dynamically generated navigation with active link support</li>
+  <li>Two orientations for content and sidebar, default (left sidebar) and <a href="https://github.com/poole/lanyon#reverse-layout">reverse</a> (right sidebar), available via <code class="highlighter-rouge">&lt;body&gt;</code> classes</li>
+  <li><a href="https://github.com/poole/hyde#themes">Eight optional color schemes</a>, available via <code class="highlighter-rouge">&lt;body&gt;</code> classes</li>
+</ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>git add -A
-</code></pre>
-</div>
+<p><a href="https://github.com/poole/hyde#readme">Head to the readme</a> to learn more.</p>
 
-<h3 id="creating-a-checkpoint">Creating a checkpoint</h3>
+<h3 id="browser-support">Browser support</h3>
 
-<p>Checkpoints in <code class="highlighter-rouge">git</code> is called a <code class="highlighter-rouge">commit</code>, and we use the command <code class="highlighter-rouge">git commit</code>. Basically <code class="highlighter-rouge">git commit</code> records the changes to the repository.</p>
+<p>Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.</p>
 
-<p>For a single line commit message, this is used:</p>
+<h3 id="download">Download</h3>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>git commit -m &lt;commit message&gt;
-</code></pre>
-</div>
+<p>Hyde is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/hyde">GitHub repository</a> for downloads, bug reports, and features requests.</p>
 
-<h3 id="remotes">Remotes</h3>
+<p>Thanks!</p>
 
-<p>The changes in git are made on a local copy of the repository. To communicate this with the outside world, git uses <em>remotes</em>. These are the repositories other than the repository on your local disc where you can push the changes made from the local repository. To create a new remote, named <em>origin</em> (it can be any other name) we use:</p>
+    
 
-<div class="highlighter-rouge"><pre class="highlight"><code>git remote add origin &lt;url&gt;
-</code></pre>
-</div>
+    
+      
+      
+      
 
-<p>This creates a new remote called <code class="highlighter-rouge">origin</code> located at <code class="highlighter-rouge">&lt;url&gt;</code>. Once this is done, we can just write <em>origin</em> in the push command instead of typing the whole URL.</p>
-
-<p>For more explanations, check footnotes <sup id="fnref:remote"><a href="#fn:remote" class="footnote">2</a></sup></p>
-
-<h3 id="cloning-a-repository">Cloning a repository</h3>
-
-<p>Instead of creating a fresh new repository, one may need to work on an already existing repository. For this purpose, cloning a repository comes handy.</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>git clone &lt;remote_url&gt;
-</code></pre>
-</div>
-
-<p>This helps in creating a local copy of the repository present in <code class="highlighter-rouge">&lt;remote_url&gt;</code>. In this case, the remotes will automatically be set.</p>
-
-<h3 id="branches">Branches</h3>
-
-<p>Branches in git is used to develop features isolated from each other. Every git repository has a default branch called <code class="highlighter-rouge">master</code>.</p>
-
-<p><img src="/images/git/branch.png" alt="branch" /></p>
-
-<p>Use other branches at the development stage and merge them to master on completion.</p>
-
-<p>To create a new branch and switch to that branch, use:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>git checkout -b &lt;branch_name&gt;
-</code></pre>
+      
+    
+  </article>
+  
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="/2012/02/07/example-content.html">
+        Example content
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">07 Feb 2012</span>
+  <span class="post-categories">
+    
+  </span>
 </div>
 
-<p>To switch back to the master branch, use:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>git checkout master
-</code></pre>
+    
+      <div class="message">
+  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 </div>
 
-<p>Rather, to switch to any existing branch, use:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>git checkout &lt;branch_name&gt;
-</code></pre>
-</div>
-
-<p>To delete an existing branch,</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>git branch -d &lt;branch_name&gt;
-</code></pre>
-</div>
-
-<h3 id="sending-your-commits">Sending your commits</h3>
-
-<p>As of now, all your changes are present in your local repository only. To send these changes to the remote repository, git uses <code class="highlighter-rouge">push</code>. The syntax of which looks like:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>git push &lt;remote_name&gt; &lt;branch_name&gt;
-</code></pre>
-</div>
-
-<p>If you want to send the changes (commits) made on the <code class="highlighter-rouge">master</code> branch on the remote repository described by the <code class="highlighter-rouge">origin</code> remote, use:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>git push origin master
-</code></pre>
-</div>
-
-<h3 id="head">HEAD</h3>
-
-<p><code class="highlighter-rouge">HEAD</code> is a reference to the last commit in the currently checked out branch. <sup id="fnref:head"><a href="#fn:head" class="footnote">3</a></sup></p>
-
-<h3 id="diffs">Diffs</h3>
-
-<p><code class="highlighter-rouge">git diff</code> shows changes between commits, commit and working directory, etc.
-To see the uncommitted changes made, use:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>git diff
-</code></pre>
-</div>
-
-<p>For showing the changes made in the last <code class="highlighter-rouge">x</code> (let it be 3 here) commits <sup id="fnref:diff_commit"><a href="#fn:diff_commit" class="footnote">4</a></sup>, use:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>git diff HEAD~3..HEAD
-</code></pre>
-</div>
-
-<p>By default, <code class="highlighter-rouge">git diff</code> only splits out three lines of context above and below the changes. <sup id="fnref:diff_full"><a href="#fn:diff_full" class="footnote">5</a></sup> <sup id="fnref:diff_full_2"><a href="#fn:diff_full_2" class="footnote">6</a></sup> To view the entire file, we use:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>git diff --no-prefix -U1000
-</code></pre>
-</div>
-
-<p>To save the diff in a file, use:</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>git diff &gt; patch.diff
-</code></pre>
-</div>
-
-<p>View <a href="https://git-scm.com/docs/git-diff">the documentations</a> for more.</p>
-
-<h3 id="git-structure">Git Structure</h3>
-
-<p>The very basic structure of git looks like the following:</p>
-
-<p><img src="/images/git/structure.png" alt="struct" /></p>
-
-<h1 id="github">Github</h1>
+<p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
 
 <blockquote>
-  <p>Github != git</p>
+  <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 </blockquote>
 
-<p>Github is a company that allows anyone to host their git repositories. Lot’s of major open source projects are hosted on GitHub, the most popular (and the most active) being the <a href="https://github.com/torvalds/linux">Linux Kernel</a>. Many well known companies host their open source projects on GitHub like <a href="https://github.com/google">Google</a>, <a href="https://github.com/facebook">Facebook</a> to just name a few.</p>
+<p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
 
-<h3 id="issues">Issues</h3>
+<h2 id="inline-html-elements">Inline HTML elements</h2>
 
-<p>GitHub has a facility called <em>issues</em>, which allows <em>anyone</em> to file a bug report, problems related to the project or feature requests related to the project. If you are a developer wishing to contribute to the project, look through the issues and try to fix them. Also, look for the labels in each issue, if you are a beginner or willing to work on something specific.</p>
+<p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
 
-<p><strong>But wait!</strong></p>
+<ul>
+  <li><strong>To bold text</strong>, use <code class="highlighter-rouge">&lt;strong&gt;</code>.</li>
+  <li><em>To italicize text</em>, use <code class="highlighter-rouge">&lt;em&gt;</code>.</li>
+  <li>Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use <code class="highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code class="highlighter-rouge">title</code> attribute for the full phrase.</li>
+  <li>Citations, like <cite>— Mark otto</cite>, should use <code class="highlighter-rouge">&lt;cite&gt;</code>.</li>
+  <li><del>Deleted</del> text should use <code class="highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins> text should use <code class="highlighter-rouge">&lt;ins&gt;</code>.</li>
+  <li>Superscript <sup>text</sup> uses <code class="highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="highlighter-rouge">&lt;sub&gt;</code>.</li>
+</ul>
 
-<p>You may not have the permission to write on <code class="highlighter-rouge">origin</code>, what then ?</p>
+<p>Most of these elements are styled by browsers with few modifications on our part.</p>
 
-<h3 id="forks">Forks</h3>
+<h2 id="heading">Heading</h2>
 
-<p>Forking a repository means you have a copy of one repository on your own profile. You will have write access to your forked repository. Push the changes to the forked repository as a remote.</p>
+<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
 
-<p>Protip: Do not fork a repository unless you are going to contribute to it</p>
+<h3 id="code">Code</h3>
 
-<h3 id="pull-requests">Pull Requests</h3>
+<p>Cum sociis natoque penatibus et magnis dis <code class="highlighter-rouge">code element</code> montes, nascetur ridiculus mus.</p>
 
-<p>To get the original repositories check out your contributions to their project, you need to create a Pull Request. Create a Pull Request to the original repository, describing the changes you have made. The maintainers of the project will review it, and if they are satisfied with the changes, they will merge the Pull Request, and your code will be reflected on the original project.</p>
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// Example can be run directly in your JavaScript console
+</span>
 
-<div class="footnotes">
-  <ol>
-    <li id="fn:ted">
-      <p><a href="https://youtu.be/o8NPllzkFhE">The mind behind Linux - Linus Torvalds</a> <a href="#fnref:ted" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:remote">
-      <p><a href="http://stackoverflow.com/questions/5617211/what-is-git-remote-add-and-git-push-origin-master/5617350#5617350">What is <code class="highlighter-rouge">git add remote</code> and <code class="highlighter-rouge">git push origin master</code></a> <a href="#fnref:remote" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:head">
-      <p><a href="http://stackoverflow.com/questions/2529971/what-is-the-head-in-git">What is the HEAD in git?</a> <a href="#fnref:head" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:diff_commit">
-      <p><a href="http://stackoverflow.com/questions/2217452/in-git-how-do-i-create-a-single-patch-for-the-last-2-revisions">create a patch for the last 2 revisions.</a> <a href="#fnref:diff_commit" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:diff_full">
-      <p><a href="https://trillworks.com/nick/2013/06/26/git-diff-with-full-context/">git diff with full context</a> <a href="#fnref:diff_full" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:diff_full_2">
-      <p><a href="http://stackoverflow.com/questions/13627598/how-to-get-git-diff-with-full-context">git diff with full context</a> <a href="#fnref:diff_full_2" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
--->
-  </div>
+<span class="c1">// Create a function that takes two arguments and returns the sum of those arguments
+</span>
+<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="s2">"a"</span><span class="p">,</span> <span class="s2">"b"</span><span class="p">,</span> <span class="s2">"return a + b"</span><span class="p">);</span>
+
+<span class="c1">// Call the function
+</span>
+<span class="nx">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
+<span class="c1">// &gt; 8</span></code></pre></figure>
+
+<p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+
+<h3 id="gists-via-github-pages">Gists via GitHub Pages</h3>
+
+<p>Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.</p>
+
+<noscript><pre>400: Invalid request
+</pre></noscript>
+<script src="https://gist.github.com/5555251.js?file=gist.md"> </script>
+
+<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.</p>
+
+<h3 id="lists">Lists</h3>
+
+<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+
+<ul>
+  <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
+  <li>Donec id elit non mi porta gravida at eget metus.</li>
+  <li>Nulla vitae elit libero, a pharetra augue.</li>
+</ul>
+
+<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+
+<ol>
+  <li>Vestibulum id ligula porta felis euismod semper.</li>
+  <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+  <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+</ol>
+
+<p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+
+<dl>
+  <dt>HyperText Markup Language (HTML)</dt>
+  <dd>The language used to describe and define the content of a Web page</dd>
+
+  <dt>Cascading Style Sheets (CSS)</dt>
+  <dd>Used to describe the appearance of Web content</dd>
+
+  <dt>JavaScript (JS)</dt>
+  <dd>The programming language used to build advanced Web sites and applications</dd>
+</dl>
+
+<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+
+<h3 id="images">Images</h3>
+
+<p>Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.</p>
+
+<p><img src="https://placehold.it/800x400" alt="placeholder" title="Large example image" />
+<img src="https://placehold.it/400x200" alt="placeholder" title="Medium example image" />
+<img src="https://placehold.it/200x200" alt="placeholder" title="Small example image" /></p>
+
+<h3 id="tables">Tables</h3>
+
+<p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Upvotes</th>
+      <th>Downvotes</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td>Totals</td>
+      <td>21</td>
+      <td>23</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>Alice</td>
+      <td>10</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>4</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Charlie</td>
+      <td>7</td>
+      <td>9</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+
+<hr />
+
+<p>Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a></p>
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
   
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/2017/02/18/introducing-bytesclub/">
-        Bytes Club - A Beginner's Guide
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="/2012/02/06/whats-jekyll.html">
+        What's Jekyll?
       </a>
-    </h1>
-
-    <span class="post-date">18 Feb 2017</span>
-
-    <!--<p>Bytes Club is an open source community by the students of WBUT In-House.</p>
-
-<h3 id="a-beginners-guide">A Beginner’s Guide</h3>
-
-<ul>
-  <li>Use a Linux distribution. Though there are few projects which can be run on Windows, all our development process takes place in Linux environment. Because: reasons.</li>
-  <li>Make sure you have joined our mailing list. If not, then send a mail to <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#098;&#121;&#116;&#101;&#115;&#045;&#099;&#108;&#117;&#098;&#064;&#103;&#111;&#111;&#103;&#108;&#101;&#103;&#114;&#111;&#117;&#112;&#115;&#046;&#099;&#111;&#109;">&#098;&#121;&#116;&#101;&#115;&#045;&#099;&#108;&#117;&#098;&#064;&#103;&#111;&#111;&#103;&#108;&#101;&#103;&#114;&#111;&#117;&#112;&#115;&#046;&#099;&#111;&#109;</a> introducing yourself and we will send you an invitation to join our mailing list.</li>
-  <li>Learn Git and Github.</li>
-  <li><strong>Communication</strong>: Feel free to contact us if you are facing any difficulties. However, make sure you have done a bit of research before asking the question. It is generally not adviced to ask something so trivial that can be found on the first link of a google search.</li>
-  <li>Pre-requisites: Knowledge of at least one programming language</li>
-</ul>
-
-<p>Make sure you follow our <a href="/contributing">Contributing guidelines</a>.</p>
-
-<h3 id="contact-us">Contact Us</h3>
-
-<p>Contact us on:</p>
-
-<ul>
-  <li><a href="https://gitter.im/Bytes_Club/General">#Bytes_Club/General</a> Gitter channel</li>
-  <li>Mailing List- <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#098;&#121;&#116;&#101;&#115;&#045;&#099;&#108;&#117;&#098;&#064;&#103;&#111;&#111;&#103;&#108;&#101;&#103;&#114;&#111;&#117;&#112;&#115;&#046;&#099;&#111;&#109;">&#098;&#121;&#116;&#101;&#115;&#045;&#099;&#108;&#117;&#098;&#064;&#103;&#111;&#111;&#103;&#108;&#101;&#103;&#114;&#111;&#117;&#112;&#115;&#046;&#099;&#111;&#109;</a></li>
-  <li><a href="https://www.facebook.com/groups/718359538212066/">Facebook Group</a>, if you are a student of WBUT In-House</li>
-</ul>
--->
-  </div>
-  
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">06 Feb 2012</span>
+  <span class="post-categories">
+    
+  </span>
 </div>
 
+    
+      <p><a href="http://jekyllrb.com">Jekyll</a> is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From <a href="https://github.com/mojombo/jekyll/blob/master/README.markdown">the project’s readme</a>:</p>
+
+<blockquote>
+  <p>Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.</p>
+</blockquote>
+
+<p>It’s an immensely useful tool and one we encourage you to use here with Hyde.</p>
+
+<p>Find out more by <a href="https://github.com/mojombo/jekyll">visiting the project on GitHub</a>.</p>
+
+    
+
+    
+      
+      
+      
+
+      
+    
+  </article>
+  
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="/2012/02/05/markup-syntax-highlighting.html">
+        Markup: Syntax Highlighting
+      </a>
+    </h2>
+    <div class="post-meta">
+  <span class="post-date">05 Feb 2012</span>
+  <span class="post-categories">
+    
+  </span>
+</div>
+
+    
+      Post displaying the various ways one can highlight code blocks with Jekyll. Some options include standard Markdown, GitHub Flavored Markdown, and Jekyll's `{% highlight %}` tag.
+    
+
+    
+      
+      
+      
+
+      
+        <a href="/2012/02/05/markup-syntax-highlighting.html">More &hellip;</a>
+      
+    
+  </article>
+  
+
+  
 <div class="pagination">
-  
-    <span class="pagination-item older">Older</span>
-  
-  
-    <span class="pagination-item newer">Newer</span>
-  
+  <a class="pagination-item older"
+     href="/page2">
+    Older
+  </a>
 </div>
 
-    </div>
+
+</div>
+    </main>
+
+    <!-- Optional footer content -->
 
   </body>
 </html>

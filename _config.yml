@@ -1,56 +1,37 @@
-# Plugins
-gems:             ['jekyll-paginate', 'jekyll-gist', 'jekyll-github-metadata']
-
 # Dependencies
+markdown:         kramdown
 highlighter:      rouge
 
-# Permalinks
-permalink:        pretty
-
 # Setup
-title:            BytesClub
-tagline:          Coding Club, WBUT In-House
-description:      "An open source community for WBUT In-House Students"
-url:              https://bytesclub.github.io/
-baseurl:          /
+title:            Hydeout
+tagline:          'A Jekyll theme'
+description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
+url:              https://fongandrew.github.io/hydeout
+baseurl:          # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
 
 author:
-  name:           'Bytes CLub'
-  url:            https://twitter.com/WBUTcoders
+  name:           'Andrew Fong'
+  url:            https://twitter.com/fongandrewc
 
 paginate:         5
-excerpt_separator: "\n\n"
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
 
 # Custom vars
-version:          1.0.1
-
+version:            3.4.1
+sidebar_home_link:  true
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
 github:
-  repo:           https://github.com/BytesClub
-
-#Global vars
-asset-img-path: /img/assets/
-asset-path: /assets/
-asset-download-path: /downloads/assets/
-
-defaults:
-  - scope:
-      path: "_assets"
-      type: assets
-    values:
-      layout: asset-view
-      banner-img: Banner.jpg
-      two-thirds-img: TwoThirds.jpg
-      one-third-img: OneThird.jpg
-      priority: 10
-      show: true
-      file-type: .zip
-
-collections:
-  assets:
-    output: true
-    permalink: /:collection/:title/
-
-jekyll_get:
-  data: ttt
-  json: 'https://api.github.com/repos/BytesClub/Tic_Tac_Toe/contributors'
-  cache: true
+  repo:             https://github.com/fongandrew/hydeout

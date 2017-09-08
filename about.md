@@ -1,33 +1,13 @@
 ---
 layout: page
 title: About
+sidebar_link: true
 ---
 
 <p class="message">
-"Talk is cheap. Show me the code."
+  Hey there! This page is included as an example. Feel free to customize it
+  for your own use upon downloading. Carry on!
 </p>
 
-## Bytes Club
-
-![logo]({{ site.baseurl }}images/bytes_club_logo.jpg)
-<!--![logo](/images/bytes_club_logo.jpg)-->
-
-Bytes Club is an open source community by the students of WBUT In-House.
-
-### Contributing
-
-Follow our [Contributing guidelines](/contributing) to get started.
-
-### Contact Us
-
-Contact us on:
-
-* [#Bytes_Club/General](https://gitter.im/Bytes_Club/General) Gitter channel
-* Mailing List- [bytes-club@googlegroups.com](mailto:bytes-club@googlegroups.com)
-* [Facebook Group](https://www.facebook.com/groups/718359538212066/), if you are a student of WBUT In-House
-
-### Donate
-
-To donate to Bytes Club, use this:
-
-![img]({{ site.baseurl }}images/fund.png)
+To make pages show up in the sidebar, add `sidebar_link: true` to the front
+matter.
